@@ -18,6 +18,11 @@ function PrintDeveloperbyMap() {
 
 function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
+  employees.forEach(employee => {
+    if (employee.profession === "developer") {
+      console.log(employee);
+    }
+  });
 }
 
 function addData() {
