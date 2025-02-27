@@ -34,6 +34,7 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
+  
 }
 
 function concatenateArray() {
