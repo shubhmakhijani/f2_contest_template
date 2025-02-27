@@ -27,6 +27,9 @@ function PrintDeveloperbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
+  const newEmployee = { id: 4, name: "susan", age: "20", profession: "intern" };
+  employees.push(newEmployee);
+  console.log(employees);
 }
 
 function removeAdmin() {
