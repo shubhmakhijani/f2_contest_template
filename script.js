@@ -8,6 +8,12 @@ let arr = [
 
 function PrintDeveloperbyMap() {
   //Write your code here , just console.log
+  employees
+    .map(employee => {
+      if (employee.profession === "developer") {
+        console.log(employee);
+      }
+    });
 }
 
 function PrintDeveloperbyForEach() {
